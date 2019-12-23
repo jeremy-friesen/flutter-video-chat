@@ -1,0 +1,33 @@
+{
+    "app": {
+        "groups": "Groups",
+        "newgroup": "New Group",
+        "groupname": "Group Name",
+        "creategroup": "Create Group",
+        "extras": "Extras",
+        "maps": "Maps",
+        "analytics": "Analytics",
+        "logout": "Logout",
+        "successfullysignedout": "Successfully Signed Out",
+        "settings": "Settings",
+        "writeamessage": "Write a Message",
+        "chatanaylitics": "Chat Anaylitics",
+        "timespentonproject": "Time Spent on Project",
+        "register": "Register",
+        "joinus": "Join us!",
+        "email": "Email",
+        "login": "Login",
+        "enteranemail": "Enter an Email",
+        "password": "Password",
+        "enterapassword": "Enter a Password",
+        "pleaseenteravalidemail": "Please enter a valid email",
+        "succesfullyregisteredanaccount": "Succesfully Registered an account!",
+        "welcomeback": "Welcome Back",
+        "loginsuccessful": "Login Successful",
+        "emailpasswordincorrect": "Email or Password Incorrect",
+        "connectwithothers": "Connect with Others",
+        "chat": "Chat",
+        "selectgroup": "<- Select a Group from the groups page\n(Swipe Right)",
+        "usersettings": "User Settings"
+    }
+}

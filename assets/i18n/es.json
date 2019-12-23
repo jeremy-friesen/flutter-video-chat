@@ -1,0 +1,33 @@
+{
+    "app": {
+        "groups": "Grupos",
+        "newgroup": "Nuevo Grupo",
+        "groupname": "Nombre del Grupo",
+        "creategroup": "Crear Grupo",
+        "extras": "Extras",
+        "maps": "Mapas",
+        "analytics": "Analítica",
+        "logout": "Cerrar Sesión",
+        "successfullysignedout": "Salió Exitosamente",
+        "settings": "Configuración",
+        "writeamessage": "Escribir un Mensaje",
+        "chatanaylitics": "Análisis de la Conversación",
+        "timespentonproject": "Tiempo Invertido en el Proyecto",
+        "register": "Registrarse",
+        "joinus": "¡Únete a Nosotros!",
+        "email": "Correo Electrónico",
+        "login": "Iniciar Sesión",
+        "enteranemail": "Ingrese un Correo Electrónico",
+        "password": "Contraseña",
+        "enterapassword": "Ingrese una Contraseña",
+        "pleaseenteravalidemail": "Ingrese un Correo Electrónico Válido",
+        "succesfullyregisteredanaccount": "¡Se registró una cuenta con éxito!",
+        "welcomeback": "Bienvenido de Ruevo",
+        "loginsuccessful": "Inicio de Sesión Exitoso",
+        "emailpasswordincorrect": "Correo Electrónico o Contraseña Incorrecta",
+        "connectwithothers": "Conectarse con Otros",
+        "chat": "Charla",
+        "selectgroup": "<- Seleccione un Grupo de la Página de Grupos\n(Deslizar Hacia la Derecha)",
+        "usersettings": "Ajustes de usuario"
+    }
+}

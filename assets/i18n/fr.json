@@ -1,0 +1,33 @@
+{
+    "app": {
+        "groups": "Groupes",
+        "newgroup": "Nouveau Groupe",
+        "groupname": "Nom de Groupe",
+        "creategroup": "Créer un Groupe",
+        "extras": "Extras",
+        "maps": "Plans",
+        "analytics": "Analytique",
+        "logout": "Connectez - Out",
+        "successfullysignedout": "Déconnexion Réussie",
+        "settings": "Paramètres",
+        "writeamessage": "Écrire un Message",
+        "chatanaylitics": "Bavarder Analytique",
+        "timespentonproject": "Temps Passé sur le Projet",
+        "register": "Registre",
+        "joinus": "Rejoignez-nous!",
+        "email": "E-mail",
+        "login": "Ouvrir une Session",
+        "enteranemail": "Entrez un E-mail",
+        "password": "Mot de Passe",
+        "enterapassword": "Entrer un mot de Passe",
+        "pleaseenteravalidemail": "Veuillez Saisir un E-mail Valide",
+        "succesfullyregisteredanaccount": "Un Compte Enregistré Avec Succès!",
+        "welcomeback": "Nous Saluons le Retour",
+        "loginsuccessful": "Connexion Réussie",
+        "emailpasswordincorrect": "E-mail ou mot de Pssse Incorrect",
+        "connectwithothers": "Se Connecter avec les Autres",
+        "chat": "Bavarder",
+        "selectgroup": "<- Sélectionnez un Groupe dans la Page des Groupes\n(Balayez vers la Droite)",
+        "usersettings": "Paramètres utilisateur"
+    }
+}
