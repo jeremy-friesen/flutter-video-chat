@@ -1,6 +1,6 @@
 # Flutter Video Chat w/ Agora.io
 
-flutter_video_chat is a simple front-end combining text-messaging (using Google Firebase) and video chat (using Agora.io for Flutter).
+flutter_video_chat is a simple front-end combining text-messaging (using Google Firebase) and video chat (using Agora.io for Flutter)!
 
 ![Alt Text](https://media.giphy.com/media/kHCkBvBVbuOhfOQgwL/giphy.gif)
 
