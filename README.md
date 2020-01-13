@@ -29,7 +29,7 @@ flutter_video_chat is a simple front-end combining text-messaging (using Google 
 
 - in the firebase console, under "Develop" select "Authentication"
 - Click "Set up sign-in method"
-- Enable "Email/Password" sign-in method
+- Enable the "Email/Password" sign-in method
 
 - in the firebase console, under "Develop" select Database
 - Click "Create Database"
