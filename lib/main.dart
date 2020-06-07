@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:provider/provider.dart';
 import 'page_navigator.dart';
 import 'Auth/logsignin_page.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   final PageController pageController = new PageController(initialPage: 0);
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     _handleCameraAndMic();
     return StreamProvider<User>.value(
       value: AuthService().user,
@@ -28,20 +29,25 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.lightBlue,
           backgroundColor: Color(0xffF1FAEE),
         ),
-        home: Wrapper(homePage: PageNavigator(),),
+        home: Wrapper(
+          homePage: PageNavigator(),
+        ),
         routes: {
           LogsignIn.id: (context) => LogsignIn(),
-          Login.id : (context) => Login(),
+          Login.id: (context) => Login(),
           Register.id: (context) => Register(),
         },
         debugShowCheckedModeBanner: false,
 
         //i18n stuff
+        // Updated deprecated code
         localizationsDelegates: [
           FlutterI18nDelegate(
-            useCountryCode: false,
-            fallbackFile: 'en',
-            path: 'assets/i18n',
+            translationLoader: FileTranslationLoader(
+              fallbackFile: 'en',
+              basePath: 'assets/i18n',
+              useCountryCode: false,
+            ),
           ),
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,
@@ -52,7 +58,10 @@ class MyApp extends StatelessWidget {
   }
 
   _handleCameraAndMic() async {
-    await PermissionHandler().requestPermissions(
-        [PermissionGroup.camera, PermissionGroup.microphone]);
+    await [Permission.camera,Permission.microphone].request();
+
+    // The following code is deprecated. Can't use in future versions.
+    //    await PermissionHandler().requestPermissions(
+    //        [PermissionGroup.camera, PermissionGroup.microphone]);
   }
 }
